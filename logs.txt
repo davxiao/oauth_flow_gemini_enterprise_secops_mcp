@@ -1,0 +1,78 @@
+TIMESTAMP                       SEVERITY  TEXT_PAYLOAD
+2026-03-25T19:34:13.684079Z               [7]       INFO:     Application startup complete.
+2026-03-25T19:34:13.681588Z               [7]       INFO:     Waiting for application startup.
+2026-03-25T19:34:13.681503Z               [7]       INFO:     Started server process [7]
+2026-03-25T19:34:13.599374Z                 super().__init__()
+2026-03-25T19:34:13.599371Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:13.599141Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:34:13.599131Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:07.221337Z               [11]      INFO:     Application startup complete.
+2026-03-25T19:34:07.219698Z               [11]      INFO:     Waiting for application startup.
+2026-03-25T19:34:07.219686Z               [11]      INFO:     Started server process [11]
+2026-03-25T19:34:07.211931Z               [6]       INFO:     Application startup complete.
+2026-03-25T19:34:07.211777Z               [5]       INFO:     Application startup complete.
+2026-03-25T19:34:07.210911Z               [6]       INFO:     Waiting for application startup.
+2026-03-25T19:34:07.210825Z               [6]       INFO:     Started server process [6]
+2026-03-25T19:34:07.209891Z               [5]       INFO:     Waiting for application startup.
+2026-03-25T19:34:07.209805Z               [5]       INFO:     Started server process [5]
+2026-03-25T19:34:07.158384Z                 super().__init__()
+2026-03-25T19:34:07.158377Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:07.157997Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:34:07.157986Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:07.143486Z                 super().__init__()
+2026-03-25T19:34:07.143481Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:07.143051Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:34:07.143042Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:07.128813Z                 super().__init__()
+2026-03-25T19:34:07.128809Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:07.128430Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:34:07.128418Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:05.787305Z               [8]       WARNING:  Warning: there are non-text parts in the response: ['function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+2026-03-25T19:34:02.541362Z               [10]      INFO:     Application startup complete.
+2026-03-25T19:34:02.539061Z               [10]      INFO:     Waiting for application startup.
+2026-03-25T19:34:02.538583Z               [10]      INFO:     Started server process [10]
+2026-03-25T19:34:02.508047Z               [9]       INFO:     Application startup complete.
+2026-03-25T19:34:02.492259Z               [9]       INFO:     Waiting for application startup.
+2026-03-25T19:34:02.491670Z               [9]       INFO:     Started server process [9]
+2026-03-25T19:34:02.451356Z                 super().__init__()
+2026-03-25T19:34:02.451353Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:02.451054Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:34:02.451043Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:02.423360Z                 super().__init__()
+2026-03-25T19:34:02.423355Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:34:02.422629Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:34:02.422612Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:33:48.772839Z                 check_feature_enabled()
+2026-03-25T19:33:48.772835Z               [8]       WARNING:  /code/.venv/lib/python3.13/site-packages/google/adk/features/_feature_decorator.py:72: UserWarning: [EXPERIMENTAL] feature FeatureName.BASE_AUTHENTICATED_TOOL is enabled.
+2026-03-25T19:33:48.772826Z                 check_feature_enabled()
+2026-03-25T19:33:48.772801Z               [8]       WARNING:  /code/.venv/lib/python3.13/site-packages/google/adk/features/_feature_decorator.py:72: UserWarning: [EXPERIMENTAL] feature FeatureName.BASE_AUTHENTICATED_TOOL is enabled.
+2026-03-25T19:33:47.414510Z               [8]       INFO:     169.254.169.126:4646 - "POST /api/stream_reasoning_engine HTTP/1.1" 200 OK
+2026-03-25T19:33:06.201208Z               [12]      INFO:     Application startup complete.
+2026-03-25T19:33:06.198864Z               [12]      INFO:     Waiting for application startup.
+2026-03-25T19:33:06.198488Z               [12]      INFO:     Started server process [12]
+2026-03-25T19:33:06.198476Z               [4]       INFO:     Application startup complete.
+2026-03-25T19:33:06.194839Z               [4]       INFO:     Waiting for application startup.
+2026-03-25T19:33:06.194416Z               [4]       INFO:     Started server process [4]
+2026-03-25T19:33:06.191378Z               [8]       INFO:     Application startup complete.
+2026-03-25T19:33:06.189074Z               [8]       INFO:     Waiting for application startup.
+2026-03-25T19:33:06.188868Z               [8]       INFO:     Started server process [8]
+2026-03-25T19:33:06.120066Z                 super().__init__()
+2026-03-25T19:33:06.120061Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:33:06.119190Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:33:06.119183Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:33:06.117356Z                 super().__init__()
+2026-03-25T19:33:06.117345Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:33:06.117092Z                 super().__init__()
+2026-03-25T19:33:06.117086Z               /code/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:33:06.114832Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:33:06.114827Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:33:06.114569Z                 self._tmpl_attrs["credential_service"] = InMemoryCredentialService()
+2026-03-25T19:33:06.114526Z               /code/.venv/lib/python3.13/site-packages/vertexai/preview/reasoning_engines/templates/adk.py:860: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+2026-03-25T19:30:35.582183Z               [2]       INFO:     Started parent process [2]
+2026-03-25T19:30:35.581812Z               [2]       INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2026-03-25T19:30:34.165595Z               Entrypoint: Launching main application with .venv/bin/python...
+2026-03-25T19:30:34.165297Z               ./startup_scripts directory not found, skipping startup script execution.
+2026-03-25T19:30:34.165200Z               Entrypoint: Starting up services...
+2026-03-25T19:29:39.269198552Z  INFO      DONE
+2026-03-25T19:29:39.042158477Z  INFO      latest: digest: sha256:e82904fe88ddc1a824a0c49dd7e3dc62628fd7c217db1f0ad8495d9d52c6afd6 size: 3266
+2026-03-25T19:29:38.484165179Z  INFO      a63795993762: Pushed

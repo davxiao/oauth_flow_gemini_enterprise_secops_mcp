@@ -1,0 +1,11 @@
+google-adk>=1.27.4
+google-cloud-aiplatform[agent-engines]~=1.140.0
+google-cloud-secret-manager
+pydantic
+python-dotenv
+google-auth-oauthlib
+typer
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-instrumentation-google-genai
+opentelemetry-exporter-gcp-logging
