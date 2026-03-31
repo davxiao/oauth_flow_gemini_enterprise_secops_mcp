@@ -345,9 +345,6 @@ def setup(
         typer.echo("\nOAuth Authorization URI:")
         typer.echo(f"\n{auth_uri}\n")
         typer.echo(
-            "Please visit the above URL to complete the OAuth authorization flow."
-        )
-        typer.echo(
             "\nAfter authorization, run 'make oauth-create-auth' to register the authorization."
         )
 
