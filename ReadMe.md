@@ -37,6 +37,10 @@ GEMINI_AUTHORIZATION_ID="gement-onemcp-auth-passthrough-vX"
 ```
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.in
+gcloud auth application-default login
 python manage.py agent-engine deploy --agent-module agent
 ```
 
