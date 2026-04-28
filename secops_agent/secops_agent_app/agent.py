@@ -19,6 +19,11 @@ def get_secops_headers(context) -> dict[str, str]:
     gemini_auth_id = os.environ.get("GEMINI_AUTHORIZATION_ID")
     region = os.environ.get("CHRONICLE_REGION", "us")
 
+    logging.info("chronicle_project_id: " + chronicle_project_id)
+    logging.info("customer_id: " + customer_id)
+    logging.info("gemini_auth_id: " + gemini_auth_id)
+    logging.info("region: " + region)
+
     headers = {
         "Accept": "text/event-stream",
         "Content-Type": "application/json"
@@ -37,6 +42,12 @@ def get_secops_headers(context) -> dict[str, str]:
             headers["Authorization"] = f"Bearer {user_token}"
             # Log first few chars for debugging without leaking full sensitive token in recap
             logging.info(f"DEBUG: Tool Call Auth Header present (starts with: {user_token[:10]}...)")
+        else:
+            # Critical for tool execution, though list_tools might still work
+            logging.critical("user_token is missing from context.state. Tool calls will fail.")
+    else:
+        # Critical for tool execution, though list_tools might still work
+        logging.critical("context or context.state or gemini_auth_id is missing. Tool calls will fail.")
             
     return headers
 

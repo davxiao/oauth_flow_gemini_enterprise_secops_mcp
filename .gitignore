@@ -8,3 +8,5 @@ __pycache__/
 internal_notes..md
 scratch/
 .env
+.venv/
+*secret*.json

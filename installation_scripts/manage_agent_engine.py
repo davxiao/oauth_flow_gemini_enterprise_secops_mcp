@@ -132,6 +132,7 @@ def deploy(
                 "GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY": "true",
                 "OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT": "true",
                 "OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT": "32768",
+                "GEMINI_AUTHORIZATION_ID": os.environ.get("GEMINI_AUTHORIZATION_ID"),
             }
             existing_envs = {e.name: e for e in existing_engine.spec.deployment_spec.env}
             for k, v in env_vars_to_add.items():
@@ -228,7 +229,9 @@ def update(
                 "GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY": "true",
                 "OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT": "true",
                 "OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT": "32768",
+                "GEMINI_AUTHORIZATION_ID": os.environ.get("GEMINI_AUTHORIZATION_ID"),
             }
+
             existing_envs = {e.name: e for e in existing_engine.spec.deployment_spec.env}
             for k, v in env_vars_to_add.items():
                 existing_envs[k] = aiplatform_v1beta1.EnvVar(name=k, value=v)
@@ -239,6 +242,8 @@ def update(
                     env=list(existing_envs.values())
                 )
             )
+
+            typer.echo(f"updating env vars: {existing_envs}")
 
             # Use field mask to only update the framework spec and env
             update_mask = field_mask_pb2.FieldMask(paths=["spec.agent_framework", "spec.deployment_spec.env"])
@@ -286,6 +291,7 @@ def tag_as_adk(
             "GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY": "true",
             "OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT": "true",
             "OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT": "32768",
+            "GEMINI_AUTHORIZATION_ID": os.environ.get("GEMINI_AUTHORIZATION_ID"),
         }
         existing_envs = {e.name: e for e in existing_engine.spec.deployment_spec.env}
         for k, v in env_vars_to_add.items():
